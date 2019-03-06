@@ -1,0 +1,40 @@
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background: #ddd6f3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+/* .jumbotron p:last-child {
+  margin-bottom: 0;
+} */
+
+.jumbotron-heading {
+  font-weight: 300;
+} 
+
+/* .jumbotron .container {
+  max-width: 40rem;
+} */
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
